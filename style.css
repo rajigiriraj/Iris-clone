@@ -98,14 +98,9 @@ body{
     box-shadow: 0 0 50px 25px rgba(0, 255, 255, 0.15);  
 
 }
-/* nav::before{
-    content: '';
-    position: absolute;
-    z-index: -1; 
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.4), transparent 70%);
-    filter: blur(20px);
-    opacity: 0.7; 
-} */
+.navbar .list:hover{
+    color: aqua;
+}
 .home-part nav .menu{
     position: absolute;
     display: flex;
